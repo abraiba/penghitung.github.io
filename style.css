@@ -1,0 +1,33 @@
+
+
+#ayam{
+  width: 80px;
+  height: 24px;
+  color: white;
+  border: white;
+  background-color: #2782cc;
+  margin-right: 15px;
+  transition: transform .2s;
+  border-radius: 4px;
+  font-size: 12px;
+}
+  #ayam:hover{
+   transform: scale(1.1);
+   
+ }
+ 
+#kurang{
+width: 80px;
+  height: 24px;
+  color: white;
+  border: white;
+  background-color: #2782cc;
+ 
+  transition: transform .2s;
+  border-radius: 4px;
+  font-size: 12px;
+}
+#kurang:hover{
+   transform: scale(1.1);
+   
+ }

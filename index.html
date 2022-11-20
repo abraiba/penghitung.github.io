@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kamu nanya</title>
+</head>
+<body style="text-align: center;">
+  <p id="jumlah"> Ayam : 0 </p>
+  <button id="ayam" >Tambah</button>
+  <button id="kurang" onmousedown="audio.play()">Kurang</button>
+  <script>
+  let count = 0;
+   document.getElementById("ayam").onclick = function(){
+     count+=1;
+      document.getElementById("jumlah").innerHTML = "Ayam : " + count;
+   }
+   const audio = new Audio();
+   audio.src = "omaga.mp3";
+   document.getElementById("kurang").onclick = function(){
+     count--
+document.getElementById("jumlah").innerHTML = "Ayam : " + count;
+   }
+   
+  </script>
+</body>
+</html>
